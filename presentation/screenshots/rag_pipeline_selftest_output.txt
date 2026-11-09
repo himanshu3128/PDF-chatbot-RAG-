@@ -1,0 +1,22 @@
+Indexed 12 pages -> 17 chunks
+
+======================================================================
+Q: What are the two architectures of Word2Vec?
+A: The two architectures of Word2Vec are Skip-Gram and CBOW.
+Sources: page 10, page 11, page 12, page 13
+======================================================================
+Q: What is the difference between TF-IDF and one-hot encoding?
+A: TF-IDF gives less weight to common words like "the" or "a" by using IDF, whereas One-Hot Encoding does not capture semantic relationships and is computationally inefficient for large vocabularies.
+Sources: page 4, page 6, page 9
+======================================================================
+Q: Who proposed Word2Vec and when?
+A: According to the document, Word2Vec was proposed by Mikolov et al. in 2013.
+Sources: page 10, page 11, page 12, page 13
+======================================================================
+Q: Who won the 2022 FIFA World Cup?
+A: This information is not available in the uploaded document.
+Sources: (none)
+======================================================================
+Q: What is the capital of France?
+A: This information is not available in the uploaded document.
+Sources: (none)

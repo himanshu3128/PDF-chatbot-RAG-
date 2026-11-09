@@ -1,0 +1,16 @@
+# --- LangChain (split into small packages; we only install what we use) ---
+langchain-core>=1.0            # Document, ChatPromptTemplate, StrOutputParser
+langchain-text-splitters>=1.0  # RecursiveCharacterTextSplitter
+langchain-ollama>=1.0          # OllamaEmbeddings, ChatOllama
+ollama>=0.6                    # official Ollama client (used to check the server/models)
+# NOTE: we do NOT use langchain-community (sunset in 2026, no longer maintained).
+#       We call pypdf and faiss directly instead.
+
+# --- PDF + vector database ---
+pypdf>=6.0                     # reads text out of PDF pages
+faiss-cpu>=1.12                # vector database for similarity search
+numpy>=2.0                     # number arrays that FAISS works with
+
+# --- App + config ---
+streamlit>=1.50                # web UI
+python-dotenv>=1.1             # loads settings from .env
